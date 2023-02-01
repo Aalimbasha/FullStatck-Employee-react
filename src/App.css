@@ -1,0 +1,144 @@
+
+
+/* //===========================================NAVBAR */
+.home{color:black ; font-size: 20px; border-radius: 7px; }    .home:hover{color:white ;transition: 0.4s;}
+.employee{color: black; font-size: 20px; border-radius: 7px;}   .employee:hover{ color: white;transition: 0.4s;}
+.about{color: black; font-size: 20px; border-radius: 7px;}   .about:hover{ color: white;transition: 0.4s;}
+.navbar{
+  background-color: rgb(255,193,7);
+}
+
+/* //=================================================== */
+.addbtn{
+  background-color: rgb(255,193,7)!important;
+  width: 100%;
+  font-weight: bolder !important;
+}
+.addbtn:hover{
+  background-color: rgb(255, 134, 4)!important;
+  width: 100%;
+  font-weight: bolder;
+ 
+}
+.Updatebtn{
+  background-color: rgb(0, 152, 179) !important;
+  width: 100%;
+  font-weight: bolder !important;
+}
+.Updatebtn:hover{
+  background-color: rgb(6, 209, 244) !important;
+  width: 100%;
+  font-weight: bolder;
+}
+.edtbtn{
+  background-color: rgb(0, 110, 255) !important;
+  width: 100%;
+}
+.load{
+  position: absolute;
+ left: 500px;
+ top: auto;
+}
+
+.edticon{
+  cursor: pointer;
+}
+.dlticon{
+  cursor: pointer;
+}
+
+.span{
+  font-size: 50px ;
+  color: rgb(0, 0, 0);
+}
+h1{ 
+  color: rgb(87, 87, 255);
+}
+
+.Shadow{
+  box-shadow: 2px 2px 5px 2px  rgb(219, 219, 219);
+}
+
+/* //=========================== Column =============== */
+.sn{
+  color: darkcyan;
+  
+}
+ th {
+ color:  rgb(255,193,7);
+  font-size: 15px;
+}
+.empid{
+  color: rgb(206, 172, 3);
+
+}
+.empname{
+  color: rgb(206, 3, 172);
+
+}
+.gender{
+  color: rgb(2, 197, 155);
+
+}
+.department{
+  color: rgb(165, 0, 5);
+
+}
+.date{
+  color: rgb(0, 38, 165);
+
+}
+
+
+/* //============================================= Icons =================================== */
+.viewIcon{
+  color: rgb(2, 154, 255);
+}
+.viewIcon:hover{
+  color: rgb(0, 0, 0);
+}
+
+.editIcon{
+  color: rgb(4, 4, 4);
+}
+.editIcon:hover{
+  color: rgb(109, 109, 109);
+}
+
+.deleteIcon{
+  color: rgb(255, 87, 45);
+}
+.deleteIcon:hover{
+  color: rgb(0, 0, 0);
+}
+
+
+/* //======================================TABLE SCROLL========= */
+.tableFixHead {
+  overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+  height: 370px; /* gives an initial height of 200px to the table */
+}
+.tableFixHead thead th {
+
+  /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.85),  rgb(122, 122, 122)); */
+  background-color: rgb(51, 51, 51);
+  position: sticky; /* make the table heads sticky */
+  top: 0px; /* table head will be placed from the top of the table and sticks to it */
+}
+table {
+  border-collapse: collapse; /* make the table borders collapse to each other */
+  width: 100%;
+}
+th,
+td {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+th {
+  background: #eee;
+}
+
+
+
+
+

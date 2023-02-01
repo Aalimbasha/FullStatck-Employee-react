@@ -1,0 +1,5 @@
+  if you run this project u should have two required softwere 
+
+                * Visual Studio Code ( vs code )
+
+                *  Microsoft visual studio 
